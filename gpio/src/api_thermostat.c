@@ -39,7 +39,7 @@ float read_temperature(thermostat_object *thermostat)
     thermostat->old_temperature = value;
     //printf("Value = %.1f°c\n", value);
     thermostat->temperature = value;
-    return temperature;
+    return value;
 }
 
 /**
