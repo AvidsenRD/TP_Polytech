@@ -24,6 +24,6 @@ void init_button_object(button_object *button)
 */
 uint8_t read_button(button_object *button)
 {
-    button->state = bcm2835_gpio_lev(DATAIN)(button->pin);
+    button->state = bcm2835_gpio_lev(DATAIN, button->pin);
     return button->state;
 }
