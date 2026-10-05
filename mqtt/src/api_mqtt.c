@@ -13,7 +13,7 @@
 
 volatile MQTTClient_deliveryToken deliveredtoken;
 
-Object light = {NULL, "IDmaison0", "IDmaison0/us1", "IDmaison0/s1", "NULL", "NULL", "light/light_2ch", NULL, NULL};
+Object light = {NULL, "IDmaison0", "IDmaison0/us1", "IDmaison0/s1", "NULL", "NULL", "light/2ch", NULL, NULL};
 /**
 * \fn void delivered (void *context, MQTTClient_deliveryToken dt)
 * \brief Callback for the deliverance of a message
